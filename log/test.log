@@ -40924,3 +40924,6 @@ Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.1ms)
   [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
 Processing by SongsController#new as HTML
   Parameters: {"artist_id"=>"1"}
+  Rendered songs/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 146189ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (14.9ms)[0m  [1mrollback transaction[0m
