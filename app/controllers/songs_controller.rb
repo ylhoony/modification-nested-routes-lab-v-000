@@ -43,7 +43,7 @@ class SongsController < ApplicationController
   end
 
   def edit
-    
+
     # if params[:author_id]
     #   author = Author.find_by(id: params[:author_id])
     #   if author.nil?
@@ -56,7 +56,12 @@ class SongsController < ApplicationController
     #   @post = Post.find(params[:id])
     # end
 
-    
+    # if params[:artist_id]
+    #   artist = Artist.find_by(id: params[:artist_id])
+
+
+binding.pry
+
     @song = Song.find(params[:id])
   end
 
