@@ -4,7 +4,7 @@ module ArtistsHelper
     song.artist.nil? ? link_to("Add Artist", edit_song_path(song)) : link_to(song.artist_name, artist_path(song.artist))
   end
 
-  def artist_select(a, b)
+  def artist_select(artist, song)
     binding.pry
 
   end
